@@ -1,0 +1,51 @@
+p{color: gray;}
+#x{color: black;}
+.x{color: green;}
+a[href]{background-color: goldx;}
+img[src]{background-color: gold;}
+a:hover{background-color: gold;}
+p::first-line{background-color: xx;}
+article > p::first-letter{color: red;}
+article > p{color: blue;}
+---------------
+/* Font and Text */
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+p, li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+/*CSS: all about boxes*/
+html {
+  background-color: #b0c4de;
+}
+/* color code is here
+https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
+*/
+/* styling the body*/
+body {
+  width: auto;
+  /* top | right | bottom | left */
+margin: 90px 10em 90px 10em;
+  background-color: #f5f5dc;
+  padding: 0 20px 20px 20px;
+  border: 2px solid black;
+}
+/*Positioning and styling the main page title*/
+h1 {
+  margin: 0;
+  padding: 10px 0;
+  color: #00539F;
+  text-shadow: 0px 20px 10px black;
+}
+/*Centering the image*/
+img {
+  display: block;
+  margin: 0 auto;
+}
